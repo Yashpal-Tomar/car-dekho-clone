@@ -114,58 +114,121 @@ hr {
   margin-top: 2px;
   color: #808080;
 }
-
 .carousel-wrapper {
   margin-top: 121px;
 }
 
 .carousel-btn {
   width: 120px;
+  background-color: black;
 }
 
 .slider-image {
-  height: 80vh;
+  height: 90vh;
 }
 
 .bgimage-form {
-  position: relative;
-  /* min-height: 580px; */
+  position: absolute;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.form {
+.btn-1-clicked:focus {
+  background-color: #24272c;
+  color: #ddd;
+}
+
+.test {
+  width: 41%;
+  margin-bottom: 20px !important;
+}
+
+.button-label {
+  font-size: 14px;
+  padding: 0px !important;
+}
+
+.carousel-indicators-copy {
   position: absolute;
-  background-color: white;
-  left: 40px;
-  margin: 20px;
-  max-width: 350px;
-  padding: 36px;
-  background-color: white;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* -------------------------FORM CSS------------------------- */
+
+.form-wrapper {
+  position: absolute;
+  width: 350px;
+  margin: 30px 0px 0px 50px;
   /* text-align: center; */
+  background-color: #fff;
   border-radius: 5px;
-  height: 420;
+  box-shadow: 0 0 4px #858585;
+  /* margin: 20px auto; */
+}
+
+.form-sub-wrapper {
+  margin: 25px 25px;
+}
+
+.form-heading {
+  font-weight: 750;
+  /* margin-top: 10px; */
+}
+
+ng-select {
+  margin-top: 10px;
 }
 
 .form-btn {
   height: 45px;
-  width: 127px;
+  width: 139px;
   border-radius: 5px;
   font-weight: 600;
   border-width: 1px;
   background-color: white;
   color: #24272c;
+  margin-top: 15px;
 }
 
-.radio-btn {
-  accent-color: initial;
+.form {
+  background-color: white;
+  left: 40px;
+  margin: 20px;
+  /* max-width: 350px; */
+  padding: 36px;
+  background-color: white;
+  /* text-align: center; */
+  border-radius: 5px;
 }
 
-.form-input {
-  width: 272px;
-  height: 40px;
-}
 .formsearch-btn {
   height: 45px;
   width: 272px;
@@ -179,5 +242,10 @@ hr {
 
 .advanced-search {
   margin-left: 130px;
-  color: #38393b;
+  color: #5b5d5f;
+  font-weight: 600;
+}
+
+.Most-Searched-car {
+  padding: 30px;
 }
