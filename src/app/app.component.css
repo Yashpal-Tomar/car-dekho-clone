@@ -4,7 +4,7 @@
   height: 100vh;
 }
 
-.header-wrapper {
+/* .header-wrapper {
   position: fixed;
   top: 0;
   width: 100%;
@@ -72,9 +72,9 @@ hr {
   color: #2e333c;
 }
 
-/* .dropbtn:hover {
+.dropbtn:hover {
   border-top: 3px solid #ff1135;
-} */
+}
 
 .dropdown {
   position: relative;
@@ -113,7 +113,8 @@ hr {
 .nav-icon {
   margin-top: 2px;
   color: #808080;
-}
+} */
+
 .carousel-wrapper {
   margin-top: 121px;
 }
@@ -393,6 +394,8 @@ ng-select {
 .city-search {
   width: 20%;
   float: right;
+  background-image: url("../assets/images/city/cityBackground.svg");
+  margin-top: 55px;
 }
 
 .city-wrapper {
@@ -403,5 +406,32 @@ ng-select {
   margin: 30px 0px 0px 30px;
   padding: 30px;
   height: 540px;
-  background-image: url("../assets/images/city/cityBackground.svg");
+}
+
+.city-search-text {
+  font-size: 21px;
+}
+
+.news-car-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.car-news-title {
+  font-size: 15px;
+  margin-left: -13px;
+  font-weight: 500;
+  margin-top: 11px;
+}
+
+.car-news-text {
+  font-size: 15px;
+  margin-left: -13px;
+  color: #858585;
+}
+
+.footer .col-4 {
+  padding: 0px !important;
+  text-align: right;
 }
