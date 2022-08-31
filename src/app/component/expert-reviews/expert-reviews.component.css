@@ -1,0 +1,16 @@
+.menubar-btn-clicked:focus {
+  color: tomato;
+}
+
+.videos-text {
+  font-size: 20px;
+  margin-left: 0px;
+  font-weight: 500;
+  margin-top: 18px;
+}
+
+.videos-text-1 {
+  margin-top: 40px;
+  font-size: 14px;
+  color: gray;
+}

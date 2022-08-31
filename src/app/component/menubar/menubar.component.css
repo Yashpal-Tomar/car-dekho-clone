@@ -1,0 +1,43 @@
+.nav-link {
+  color: black;
+}
+.menubar-btn-clicked:focus {
+  color: tomato;
+}
+
+.card {
+  width: 230px;
+}
+
+.card-button {
+  color: tomato;
+  background-color: white;
+  border-color: tomato;
+  border-radius: 0px;
+  font-size: 10px;
+  width: -webkit-fill-available;
+  font-weight: 500;
+}
+
+.card-text-1 {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+.card-text-2 {
+  font-weight: 400;
+  font-size: 17px;
+  color: black;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grids-footer {
+  color: #1a6bdd;
+  font-size: 15px;
+  font-weight: 500;
+}

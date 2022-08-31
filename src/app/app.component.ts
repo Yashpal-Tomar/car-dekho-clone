@@ -11,7 +11,6 @@ import { NgOption } from '@ng-select/ng-select';
 export class AppComponent {
   color = false;
   title = 'car-dekho';
-  selectedCar:any;
 
     selectBudget = [
         { id: 11, name: '1-5 Lakh' },

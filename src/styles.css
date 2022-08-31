@@ -1,1 +1,112 @@
 @import "~@ng-select/ng-select/themes/default.theme.css";
+
+.menubar-1-Wrapper {
+  width: 95%;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 2px #858585;
+  margin: 30px 0px 0px 30px;
+  padding: 30px;
+}
+
+.menubar-button {
+  border: none;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  color: black;
+}
+
+.nav-link {
+  color: black;
+}
+.menubar-btn-clicked:focus {
+  color: tomato;
+}
+
+.card {
+  width: 230px;
+}
+
+.card-button {
+  color: tomato;
+  background-color: white;
+  border-color: tomato;
+  border-radius: 0px;
+  font-size: 10px;
+  width: -webkit-fill-available;
+  font-weight: 500;
+}
+
+.card-text-1 {
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+}
+.card-text-2 {
+  font-weight: 400;
+  font-size: 17px;
+  color: black;
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.grids-footer {
+  color: #1a6bdd;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.latest-cars-wrapper {
+  width: 95%;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 0 2px #858585;
+  margin: 30px 0px 0px 30px;
+  padding: 30px;
+}
+
+.grid-wrapper-1 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+}
+
+.card-1 {
+  width: 145px;
+}
+
+.news-car-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.car-news-title {
+  font-size: 15px;
+  margin-left: -13px;
+  font-weight: 500;
+  margin-top: 11px;
+}
+
+.car-news-text {
+  font-size: 15px;
+  margin-left: -13px;
+  color: #858585;
+}
+
+.city-search {
+  width: 20%;
+  float: right;
+
+  margin-top: 55px;
+}
+
+.footer .col-4 {
+  padding: 0px !important;
+  text-align: right;
+}
